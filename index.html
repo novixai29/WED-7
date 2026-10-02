@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  >
+
+  <meta
+    name="description"
+    content="دعوة زفاف كرم وهبة"
+  >
+
+  <meta name="theme-color" content="#1f2b24">
+
+  <title>دعوة زفاف</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Kufi+Arabic:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="script.js" defer></script>
+</head>
+
+
+<body>
+
+  <!-- =====================================================
+       DOCUMENT FOLIO OPENING
+  ====================================================== -->
+
+  <section
+    class="folio-opening"
+    id="folioOpening"
+    aria-labelledby="openingTitle"
+  >
+
+    <div
+      class="opening-glow"
+      aria-hidden="true"
+    ></div>
+
+
+    <div class="opening-header">
+
+      <span>
+        PRIVATE MARRIAGE DOCUMENT
+      </span>
+
+      <h1 id="openingTitle">
+        الميثاق
+      </h1>
+
+      <p>
+        وثيقة لليلة تبدأ منها حكاية عمر
+      </p>
+
+    </div>
+
+
+    <button
+      class="folio-trigger"
+      id="openFolio"
+      type="button"
+      aria-label="فتح وثيقة دعوة الزفاف"
+    >
+
+      <span
+        class="folio-stage"
+        aria-hidden="true"
+      >
+
+        <span class="folio-shadow"></span>
+
+
+        <span class="document-folio">
+
+          <!-- back -->
+
+          <span class="folio-back"></span>
+
+
+          <!-- document inside -->
+
+          <span class="document-preview">
+
+            <span class="document-border"></span>
+
+            <span class="document-code">
+              MARRIAGE FOLIO
+            </span>
+
+            <strong
+              class="document-title"
+              id="previewNames"
+            >
+              كرم × هبة
+            </strong>
+
+            <span
+              class="document-date"
+              id="previewDate"
+            >
+              14 OCT 2027
+            </span>
+
+            <span class="document-issued">
+              OFFICIAL WEDDING INVITATION
+            </span>
+
+          </span>
+
+
+          <!-- folio cover -->
+
+          <span class="folio-cover">
+
+            <span class="folio-label">
+
+              <small>
+                MARRIAGE FOLIO
+              </small>
+
+              <strong id="folioNames">
+                KARAM & HIBA
+              </strong>
+
+              <span id="folioIssued">
+                ISSUED 14.10.2027
+              </span>
+
+            </span>
+
+          </span>
+
+
+          <!-- side tab -->
+
+          <span class="folio-tab">
+
+            <span>
+              OPEN
+            </span>
+
+          </span>
+
+        </span>
+
+      </span>
+
+
+      <span class="opening-hint">
+
+        <span></span>
+
+        اسحب الميثاق
+
+        <span></span>
+
+      </span>
+
+    </button>
+
+  </section>
+
+
+
+  <!-- =====================================================
+       MAIN
+  ====================================================== -->
+
+  <main
+    class="site-shell"
+    id="invitationMain"
+    tabindex="-1"
+  >
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <section
+      class="hero"
+      aria-labelledby="heroNames"
+    >
+
+      <div class="hero-paper" aria-hidden="true"></div>
+
+
+      <div class="document-topline reveal">
+
+        <span>
+          MARRIAGE FOLIO
+        </span>
+
+        <span id="heroDocumentCode">
+          DOC / 141027
+        </span>
+
+      </div>
+
+
+      <div class="hero-content">
+
+
+        <div class="official-mark reveal">
+
+          <span></span>
+
+          <strong>
+            وثيقة دعوة زفاف
+          </strong>
+
+          <span></span>
+
+        </div>
+
+
+        <div class="host-block reveal">
+
+          <span>
+            الداعي
+          </span>
+
+          <strong id="fatherName">
+            السيد أحمد قاسم
+          </strong>
+
+          <small>
+            والد العريس
+          </small>
+
+        </div>
+
+
+        <p
+          class="hero-intro reveal"
+          id="heroIntro"
+        >
+          يسر السيد أحمد قاسم أن يدعوكم
+          لمشاركته فرحة زفاف ابنه
+        </p>
+
+
+        <h1
+          class="hero-names reveal"
+          id="heroNames"
+        >
+
+          <span id="groomName">
+            كرم
+          </span>
+
+          <span class="contract-divider">
+
+            <i></i>
+
+            <small>
+              على الآنسة
+            </small>
+
+            <i></i>
+
+          </span>
+
+          <span id="brideName">
+            هبة
+          </span>
+
+        </h1>
+
+
+        <p
+          class="hero-message reveal"
+          id="heroMessage"
+        >
+          وأن تشهدوا معنا بداية عهد جديد
+          يجمعهما على المودة والرحمة
+        </p>
+
+
+        <div class="hero-metadata reveal">
+
+          <div>
+
+            <span>
+              DATE
+            </span>
+
+            <strong id="heroDate">
+              14 OCT 2027
+            </strong>
+
+          </div>
+
+
+          <div>
+
+            <span>
+              TIME
+            </span>
+
+            <strong id="heroTime">
+              07:00 PM
+            </strong>
+
+          </div>
+
+
+          <div>
+
+            <span>
+              LOCATION
+            </span>
+
+            <strong id="heroVenue">
+              قاعة السراي
+            </strong>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="hero-scroll"
+          aria-hidden="true"
+        >
+          <span></span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         DOCUMENT SECTION
+    ====================================================== -->
+
+    <section
+      class="paper-section invitation-section"
+      aria-labelledby="invitationTitle"
+    >
+
+      <div class="section-inner">
+
+
+        <div class="document-section-header reveal">
+
+          <span>
+            SECTION 01
+          </span>
+
+          <span>
+            INVITATION STATEMENT
+          </span>
+
+        </div>
+
+
+        <h2
+          class="section-title reveal"
+          id="invitationTitle"
+        >
+          الميثاق
+        </h2>
+
+
+        <p
+          class="invitation-text reveal"
+          id="invitationText"
+        >
+          بسم الله وعلى بركة الله
+          يسر السيد أحمد قاسم أن يدعوكم
+          لمشاركته فرحة زفاف ابنه كرم
+          على الآنسة هبة
+          وأن تشهدوا معنا بداية عهد جديد
+          يجمعهما على المودة والرحمة
+        </p>
+
+
+        <div class="signature-block reveal">
+
+          <span>
+            AUTHORIZED BY
+          </span>
+
+          <strong id="fatherSignature">
+            أحمد قاسم
+          </strong>
+
+          <small>
+            والد العريس
+          </small>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         COUNTDOWN
+    ====================================================== -->
+
+    <section
+      class="dark-section countdown-section"
+      aria-labelledby="countdownTitle"
+    >
+
+      <div class="section-inner">
+
+
+        <div class="dark-document-header reveal">
+
+          <span>
+            SECTION 02
+          </span>
+
+          <span>
+            TIME UNTIL EFFECTIVE
+          </span>
+
+        </div>
+
+
+        <h2
+          class="dark-title reveal"
+          id="countdownTitle"
+        >
+          يبدأ الميثاق بعد
+        </h2>
+
+
+        <div
+          class="countdown reveal"
+          aria-live="polite"
+        >
+
+
+          <div class="countdown-cell">
+
+            <span class="cell-code">
+              DAYS
+            </span>
+
+            <strong id="days">
+              00
+            </strong>
+
+            <small>
+              يوم
+            </small>
+
+          </div>
+
+
+          <div class="countdown-cell">
+
+            <span class="cell-code">
+              HOURS
+            </span>
+
+            <strong id="hours">
+              00
+            </strong>
+
+            <small>
+              ساعة
+            </small>
+
+          </div>
+
+
+          <div class="countdown-cell">
+
+            <span class="cell-code">
+              MIN
+            </span>
+
+            <strong id="minutes">
+              00
+            </strong>
+
+            <small>
+              دقيقة
+            </small>
+
+          </div>
+
+
+          <div class="countdown-cell">
+
+            <span class="cell-code">
+              SEC
+            </span>
+
+            <strong id="seconds">
+              00
+            </strong>
+
+            <small>
+              ثانية
+            </small>
+
+          </div>
+
+
+        </div>
+
+
+        <p
+          class="countdown-status"
+          id="countdownStatus"
+        ></p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         DATE DETAILS
+    ====================================================== -->
+
+    <section
+      class="paper-section details-section"
+      aria-labelledby="detailsTitle"
+    >
+
+      <div class="section-inner">
+
+
+        <div class="document-section-header reveal">
+
+          <span>
+            SECTION 03
+          </span>
+
+          <span>
+            EVENT METADATA
+          </span>
+
+        </div>
+
+
+        <h2
+          class="section-title reveal"
+          id="detailsTitle"
+        >
+          بيانات الميثاق
+        </h2>
+
+
+        <div class="metadata-table">
+
+
+          <div class="metadata-row reveal">
+
+            <span class="metadata-code">
+              01
+            </span>
+
+            <span class="metadata-label">
+              اليوم
+            </span>
+
+            <strong id="eventWeekday">
+              الخميس
+            </strong>
+
+          </div>
+
+
+          <div class="metadata-row reveal">
+
+            <span class="metadata-code">
+              02
+            </span>
+
+            <span class="metadata-label">
+              التاريخ
+            </span>
+
+            <strong id="eventDate">
+              14 أكتوبر 2027
+            </strong>
+
+          </div>
+
+
+          <div class="metadata-row reveal">
+
+            <span class="metadata-code">
+              03
+            </span>
+
+            <span class="metadata-label">
+              الوقت
+            </span>
+
+            <strong id="eventTime">
+              7:00 مساءً
+            </strong>
+
+          </div>
+
+
+          <div class="metadata-row reveal">
+
+            <span class="metadata-code">
+              04
+            </span>
+
+            <span class="metadata-label">
+              الوثيقة
+            </span>
+
+            <strong id="documentNumber">
+              MF-141027
+            </strong>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         LOCATION
+    ====================================================== -->
+
+    <section
+      class="location-section"
+      aria-labelledby="venueTitle"
+    >
+
+      <div class="location-lines" aria-hidden="true"></div>
+
+
+      <div class="section-inner">
+
+
+        <div class="location-header reveal">
+
+          <span>
+            SECTION 04
+          </span>
+
+          <span>
+            REGISTERED LOCATION
+          </span>
+
+        </div>
+
+
+        <span class="location-caption reveal">
+          مكان انعقاد الميثاق
+        </span>
+
+
+        <h2
+          class="location-title reveal"
+          id="venueTitle"
+        >
+          قاعة السراي
+        </h2>
+
+
+        <p
+          class="location-city reveal"
+          id="venueCity"
+        >
+          النجف
+        </p>
+
+
+        <div class="location-document reveal">
+
+          <div>
+
+            <span>
+              VENUE
+            </span>
+
+            <strong id="locationVenue">
+              قاعة السراي
+            </strong>
+
+          </div>
+
+
+          <div>
+
+            <span>
+              ADDRESS
+            </span>
+
+            <strong id="locationAddress">
+              النجف - العراق
+            </strong>
+
+          </div>
+
+
+          <div>
+
+            <span>
+              TIME
+            </span>
+
+            <strong id="locationTime">
+              7:00 مساءً
+            </strong>
+
+          </div>
+
+        </div>
+
+
+        <a
+          href="#"
+          class="map-button reveal"
+          id="mapsButton"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="فتح موقع قاعة الحفل على Google Maps"
+        >
+
+          <span>
+            فتح الموقع
+          </span>
+
+          <span>
+            VIEW REGISTERED LOCATION
+          </span>
+
+          <i aria-hidden="true">
+            ↗
+          </i>
+
+        </a>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ACTIONS
+    ====================================================== -->
+
+    <section
+      class="paper-section actions-section"
+      aria-labelledby="actionsTitle"
+    >
+
+      <div class="section-inner">
+
+
+        <div class="document-section-header reveal">
+
+          <span>
+            SECTION 05
+          </span>
+
+          <span>
+            DOCUMENT ACTIONS
+          </span>
+
+        </div>
+
+
+        <h2
+          class="section-title reveal"
+          id="actionsTitle"
+        >
+          احتفظ بالوثيقة
+        </h2>
+
+
+        <div class="actions-grid reveal">
+
+
+          <button
+            class="document-action"
+            id="calendarButton"
+            type="button"
+          >
+
+            <span class="action-number">
+              01
+            </span>
+
+            <span class="action-label">
+              إضافة إلى التقويم
+            </span>
+
+            <span
+              class="action-icon"
+              aria-hidden="true"
+            >
+              +
+            </span>
+
+          </button>
+
+
+          <button
+            class="document-action"
+            id="shareButton"
+            type="button"
+          >
+
+            <span class="action-number">
+              02
+            </span>
+
+            <span class="action-label">
+              مشاركة الدعوة
+            </span>
+
+            <span
+              class="action-icon"
+              aria-hidden="true"
+            >
+              ↗
+            </span>
+
+          </button>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CLOSING
+    ====================================================== -->
+
+    <section class="closing-section">
+
+      <div class="closing-document">
+
+
+        <span class="closing-code reveal">
+          MARRIAGE FOLIO
+        </span>
+
+
+        <p class="closing-copy reveal">
+          بحضوركم يزداد هذا العهد فرحاً
+        </p>
+
+
+        <h2
+          class="closing-names reveal"
+          id="closingNames"
+        >
+          كرم × هبة
+        </h2>
+
+
+        <div class="closing-rule reveal">
+
+          <span></span>
+
+          <i></i>
+
+          <span></span>
+
+        </div>
+
+
+        <div
+          class="closing-date reveal"
+          id="closingDate"
+        >
+          14 · OCT · 2027
+        </div>
+
+
+        <div class="closing-signature reveal">
+
+          <span>
+            الداعي
+          </span>
+
+          <strong id="closingFather">
+            السيد أحمد قاسم
+          </strong>
+
+          <small>
+            والد العريس
+          </small>
+
+        </div>
+
+
+        <div
+          class="official-seal reveal"
+          aria-hidden="true"
+        >
+
+          <span>
+            MF
+          </span>
+
+          <small>
+            2027
+          </small>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="site-footer">
+
+      <span>
+        THE MARRIAGE FOLIO
+      </span>
+
+      <span id="footerDocument">
+        MF-141027
+      </span>
+
+      <span id="footerNames">
+        KARAM × HIBA
+      </span>
+
+    </footer>
+
+  </main>
+
+
+
+  <!-- =====================================================
+       TOAST
+  ====================================================== -->
+
+  <div
+    class="toast"
+    id="toast"
+    role="status"
+    aria-live="polite"
+    aria-atomic="true"
+  ></div>
+
+</body>
+</html>
